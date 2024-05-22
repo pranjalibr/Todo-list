@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #291010;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #0d0e38;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 5px 30px #000;
+  margin-bottom: 10px;
+}
+
+.Heading h1 {
+  color: #ffff;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 14px;
+  margin-right: 25px;
+  font-size: 18px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+}
+
+.button-add {
+  width: 65px;
+  padding: 14px 14px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #f1af71;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: #e9e4e4;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: lightseagreen;
+}
+
+.button-edit {
+  color: #c1b653;
+  margin-right: 10px;
+}
+
+.button-complete {
+  text-decoration: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #c23636;
+  opacity: 0.6;
+}
+
+.list-item .complete {
+  text-decoration: line-through;
+  text-decoration-color: #c42222;
+  opacity: 0.5;
+}
+
+.list {
+  width: 220px;
+  background-color: #0f1143;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+
+@media (max-width: 600px) {
+  .task-input {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .button-add {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .app-wrapper {
+    padding: 20px;
+  }
+  .task-input {
+    width: 90%;
+    font-size: 16px;
+    padding: 12px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .button-add {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .list {
+    width: 100%;
+    font-size: 18px;
+  }
+  .button-complete,
+  .button-delete,
+  .button-edit {
+    font-size: 20px;
+  }
+}
