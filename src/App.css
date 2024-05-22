@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  overflow-x: hidden;
+}
 .container {
   background: #c0bbbb;
   width: 100%;
@@ -154,6 +156,7 @@ button:focus {
 
 @media (max-width: 300px) {
   .app-wrapper {
+    width: 90%;
     padding: 20px;
   }
   .task-input {
