@@ -37,7 +37,7 @@ const TodoList = ({ todos, setTodos, setEditTodo }) => {
               className="button-complete task-button"
               onClick={() => handleComplete(todo)}
             >
-              <i className="fa fa-check-circle"></i>
+             <i class="fa fa-check-circle" aria-hidden="true"></i>
             </button>
 
             <button
