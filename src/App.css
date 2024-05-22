@@ -123,7 +123,7 @@ button:focus {
   .task-input {
     width: calc(
       100% - 75px
-    ); /* Adjust width to fit input and button on the same line */
+    ); 
     margin-right: 5px;
     margin-bottom: 10px;
   }
