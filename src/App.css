@@ -25,7 +25,7 @@ body {
   box-shadow: 3px 5px 30px #000;
   margin-bottom: 10px;
   width: 90%;
-  max-width: 400px; /* Ensures the app is not too wide */
+  max-width: 400px;
 }
 
 .Heading h1 {
@@ -38,7 +38,7 @@ body {
   outline: none;
   width: calc(
     100% - 75px
-  ); /* Adjust width to fit input and button on the same line */
+  );
   padding: 14px;
   margin-right: 5px;
   font-size: 18px;
@@ -137,7 +137,7 @@ button:focus {
   .task-input {
     width: calc(
       100% - 75px
-    ); /* Adjust width to fit input and button on the same line */
+    ); 
     padding: 10px;
     font-size: 14px;
     margin-right: 5px;
@@ -171,7 +171,7 @@ button:focus {
   .task-input {
     width: calc(
       100% - 75px
-    ); /* Adjust width to fit input and button on the same line */
+    );
     font-size: 14px;
     padding: 10px;
     margin-right: 5px;
