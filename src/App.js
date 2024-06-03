@@ -31,9 +31,7 @@ const App = () => {
               editTodo={editTodo}
               setEditTodo={setEditTodo}
             />
-            {/* {todos.map((todo) => (
-              <h1> {todo.title} </h1>
-            ))} */}
+            
           </div>
         </div>
         <div>
